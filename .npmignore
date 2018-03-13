@@ -1,3 +1,10 @@
+.idea
 .bilirc
 .eslintrc
+.DS_Store
+.buildpath
+.project
+.settings
+nbproject
 /docs
+Thumbs.db
