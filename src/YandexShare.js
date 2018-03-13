@@ -13,11 +13,11 @@ export default {
     },
     url: {
       type: String,
-      default: window.location.href,
+      default: '',
     },
     title: {
       type: String,
-      default: document.title,
+      default: '',
     },
     description: {
       type: String,
@@ -70,8 +70,8 @@ export default {
     Script.attach().then(() => {
       window.Ya.share2(this.$el, {
         content: {
-          url: this.url,
-          title: this.title,
+          url: this.url || window.location.href,
+          title: this.title || document.title,
           description: this.description,
           image: this.image,
         },
