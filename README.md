@@ -60,7 +60,7 @@ export default {
 | small            | Boolean | Маленький размер кнопок соцсетей вместо больших                                                                   | false      | false             |
 | lang             | String  | Язык                                                                                                              | false      | 'ru'              |
 | limit            | Number  | Количество соцсетей, отображаемых в виде кнопок                                                                   | false      | undefined         |
-| bare             | Boolean | Отключение стилей и вывод кнопок в виде текста                                                                    | false      | false             |
+| bare             | Boolean | Отключение стилей и вывод кнопок в виде текста (не будет работать если на странице несколько компонентов)         | false      | false             |
 | copy             | Boolean | Позиция кнопки Скопировать ссылку (last, first или hidden)                                                        | false      | 'last'            |
 | popupTop         | Boolean | Открытие pop-up вверх вместо вниз                                                                                 | false      | false             |
 | popupOuter       | Boolean | Outer расположение pop-up                                                                                         | false      | false             |
