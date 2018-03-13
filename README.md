@@ -2,6 +2,8 @@
 
 **vue-yandex-share** позволяет интегрировать [Блок "Поделиться"] от Яндекса 
 
+[DEMO](http://cookieseater.github.io/vue-yandex-share/)
+
 ## Установка
 
 ```Bash
