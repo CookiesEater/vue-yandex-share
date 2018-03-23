@@ -1,4 +1,4 @@
 {
   "name": "vue-yandex-share",
-  "format": ["umd", "es"]
+  "format": ["umd", "umd-min"]
 }
