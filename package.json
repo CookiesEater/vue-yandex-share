@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/CookiesEater/vue-yandex-share#readme",
   "devDependencies": {
-    "bili": "^3.0.13",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.9.0"
+    "bili": "^3.1.2",
+    "eslint": "^5.0.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
   }
 }
