@@ -25,7 +25,7 @@ export default {
     },
     image: {
       type: String,
-      default: null,
+      default: undefined,
     },
     contentByService: {
       type: Object,
