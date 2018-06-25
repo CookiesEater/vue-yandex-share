@@ -1,6 +1,6 @@
 # Vue Yandex Share
 
-**vue-yandex-share** позволяет интегрировать [Блок "Поделиться"] от Яндекса 
+**vue-yandex-share** позволяет интегрировать [Блок "Поделиться"] от Яндекса
 
 [DEMO](http://cookieseater.github.io/vue-yandex-share/)
 
@@ -56,14 +56,14 @@ export default {
 | url              | String  | Ссылка, которой нужно поделиться                                                                                  | false      | Текущий url       |
 | title            | String  | Заголовок, которым нужно поделиться                                                                               | false      | Текущий заголовок |
 | description      | String  | Текст, которым нужно поделиться                                                                                   | false      | ''                |
-| image            | String  | Изображение, которым нужно поделиться                                                                             | false      | null              |
+| image            | String  | Изображение, которым нужно поделиться                                                                             | false      | undefined         |
 | contentByService | Object  | Параметры для отельных сервисов, [подробнее](https://tech.yandex.ru/share/doc/dg/api-docpage/#contentbyservice)   | false      | {}                |
 | vertical         | Boolean | Вертикальное направление списка вместо горизонтального                                                            | false      | false             |
 | small            | Boolean | Маленький размер кнопок соцсетей вместо больших                                                                   | false      | false             |
 | lang             | String  | Язык                                                                                                              | false      | 'ru'              |
 | limit            | Number  | Количество соцсетей, отображаемых в виде кнопок                                                                   | false      | undefined         |
 | bare             | Boolean | Отключение стилей и вывод кнопок в виде текста (не будет работать если на странице несколько компонентов)         | false      | false             |
-| copy             | Boolean | Позиция кнопки Скопировать ссылку (last, first или hidden)                                                        | false      | 'last'            |
+| copy             | String  | Позиция кнопки Скопировать ссылку (last, first или hidden)                                                        | false      | 'last'            |
 | popupTop         | Boolean | Открытие pop-up вверх вместо вниз                                                                                 | false      | false             |
 | popupOuter       | Boolean | Outer расположение pop-up                                                                                         | false      | false             |
 
