@@ -1,6 +1,6 @@
 {
   "name": "@cookieseater/vue-yandex-share",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Vue component for Yandex Share service",
   "main": "dist/vue-yandex-share.js",
   "module": "src/YandexShare.js",
